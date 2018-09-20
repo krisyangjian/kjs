@@ -1,0 +1,30 @@
+{
+  "name": "yj-ext",
+  "version": "1.0.2",
+  "description": "yj-external",
+  "author": "yangjian <yangjian@megvii.com>",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.conf.js",
+    "build": "webpack --config webpack.prod.conf.js"
+  },
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "javascript",
+    "vue"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
